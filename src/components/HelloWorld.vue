@@ -79,6 +79,9 @@
           awesome-vue
         </a>
       </li>
+      <li>
+        <button type="button" name="测试跳转" @click="goTest"></button>
+      </li>
     </ul>
   </div>
 </template>
@@ -89,6 +92,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    goTest: function(){
+      this.$router.push({path:'/TestSass'})
     }
   }
 }
