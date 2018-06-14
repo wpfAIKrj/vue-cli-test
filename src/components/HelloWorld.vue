@@ -95,8 +95,8 @@ export default {
     }
   },
   methods: {
-    goTest: function(){
-      this.$router.push({path:'/TestSass'})
+    goTest: function () {
+      this.$router.push({path: '/TestSass'})
     }
   }
 }
